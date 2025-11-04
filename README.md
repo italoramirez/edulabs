@@ -1,6 +1,6 @@
 # 🧱 Storage Manager – Laravel + Vite + Tailwind
 
-Sistema completo de **gestión de almacenamiento seguro** con backend en **Laravel 11 (Sanctum + MySQL)**  
+Sistema completo de **gestión de almacenamiento seguro** con backend en **Laravel 12 (Sanctum + MySQL)**  
 y frontend en **Vite + TailwindCSS + Vanilla JS**.  
 
 Permite:
@@ -12,12 +12,12 @@ Permite:
 
 ## 🚀 Tecnologías principales
 
-| Área | Tecnologías |
-|------|--------------|
-| Backend | Laravel 11, Sanctum, PHP 8.2+, MySQL 8+, Docker |
-| Frontend | Vite, TailwindCSS, Vanilla JavaScript |
-| Autenticación | Laravel Sanctum (SPA) |
-| Infraestructura | Docker Compose |
+| Área | Tecnologías                                     |
+|------|-------------------------------------------------|
+| Backend | Laravel 12, Sanctum, PHP 8.2+, MySQL 8+, Docker |
+| Frontend | Vite, TailwindCSS, Vanilla JavaScript           |
+| Autenticación | Laravel Sanctum (SPA)                           |
+| Infraestructura | Docker Compose                                  |
 
 ---
 
@@ -77,7 +77,7 @@ storage-manager/
 
 ---
 
-# ⚙️ Backend (Laravel 11)
+# ⚙️ Backend (Laravel 12)
 
 ## 🧰 Instalación paso a paso
 
