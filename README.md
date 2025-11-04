@@ -245,3 +245,4 @@ Proyecto de ejemplo educativo – libre para uso, modificación o extensión.
 
 ## ✍️ Autor
 **Ítalo Ramírez**
+# edulabs
