@@ -28,15 +28,10 @@ class DatabaseSeeder extends Seeder
         Setting::updateOrCreate(['key'=>'default_limit'], ['value' => 10485760]);
         Setting::updateOrCreate(['key'=>'forbidden_extensions'], ['value' => 'exe,bat,php,js,sh']);
 
-        // groups
-        $group = Group::create(['name' => 'Developers']);
-
-        // users
-        User::create([ 'name' => 'Admin', 'email' => 'admin@demo.com', 'password' => bcrypt('password'), 'role' => 'admin' ]);
-        User::create([ 'name' => 'User', 'email' => 'user@demo.com', 'password' => bcrypt('password'), 'role' => 'user', 'group_id' => $group->id ]);
 
         $this->call([
             SettingsTableSeeder::class,
+            UserTableSeeder::class
         ]);
     }
 }

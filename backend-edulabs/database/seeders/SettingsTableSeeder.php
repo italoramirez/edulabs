@@ -17,10 +17,8 @@ class SettingsTableSeeder extends Seeder
             'exe', 'sh', 'bat', 'php', 'js', 'html', 'sql'
         ];
 
-        // 💾 Límite de almacenamiento por usuario (100 MB)
-        $defaultLimit = 100 * 1024 * 1024; // bytes
+        $defaultLimit = 100 * 1024 * 1024;
 
-        // Guardar o actualizar registros
         Setting::updateOrCreate(
             ['key' => 'forbidden_extensions'],
             ['value' => $forbiddenExtensions]
